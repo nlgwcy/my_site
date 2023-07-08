@@ -1,54 +1,30 @@
-+++
-# Slider widget.
-widget = "slider"  # See https://sourcethemes.com/academic/docs/page-builder/
-headless = true  # This file represents a page section.
-active = false  # Activate this widget? true/false
-weight = 1  # Order that this section will appear.
-
-# Slide interval.
-# Use `false` to disable animation or enter a time in ms, e.g. `5000` (5s).
-interval = false
-
-# Slide height (optional).
-# E.g. `500px` for 500 pixels or `calc(100vh - 70px)` for full screen.
-height = ""
-
-# Slides.
-# Duplicate an `[[item]]` block to add more slides.
-[[item]]
-  title = "Hello"
-  content = "I am center aligned :smile:"
-  align = "center"  # Choose `center`, `left`, or `right`.
-
-  # Overlay a color or image (optional).
-  #   Deactivate an option by commenting out the line, prefixing it with `#`.
-  overlay_color = "#666"  # An HTML color value.
-  overlay_img = "headers/bubbles-wide.jpg"  # Image path relative to your `static/media/` folder.
-  overlay_filter = 0.5  # Darken the image. Value in range 0-1.
-
-  # Call to action button (optional).
-  #   Activate the button by specifying a URL and button label below.
-  #   Deactivate by commenting out parameters, prefixing lines with `#`.
-  cta_label = "Get Academic"
-  cta_url = "https://sourcethemes.com/academic/"
-  cta_icon_pack = "fas"
-  cta_icon = "graduation-cap"
-
-[[item]]
-  title = "Left"
-  content = "I am left aligned :smile:"
-  align = "left"
-
-  overlay_color = "#555"  # An HTML color value.
-  overlay_img = ""  # Image path relative to your `static/media/` folder.
-  overlay_filter = 0.5  # Darken the image. Value in range 0-1.
-
-[[item]]
-  title = "Right"
-  content = "I am right aligned :smile:"
-  align = "right"
-
-  overlay_color = "#333"  # An HTML color value.
-  overlay_img = ""  # Image path relative to your `static/media/` folder.
-  overlay_filter = 0.5  # Darken the image. Value in range 0-1.
-+++
+---
+active: true
+date: 2023-07-08 00:00:00
+height: 350px
+interval: 6000
+item:
+- align: center
+  content: High-performance service mesh dataplane <br /> <a class="github-button"
+    href="https://github.com/nlgwcy/hello-world" data-icon="octicon-star" data-size="large"
+    data-show-count="true" aria-label="Star this on GitHub">Star</a>
+  overlay_color: '#666'
+  overlay_filter: 0.2
+  overlay_img: headers/star.png
+  title: Quick start to Kmesh
+- align: center
+  cta_icon: fa fa-bullhorn
+  cta_icon_pack: fas
+  cta_label: Click here for more details
+  cta_url: /blog/kmesh_introduce
+  overlay_color: '#555'
+  overlay_filter: 0.25
+  overlay_img: headers/bubbles-wide.jpg
+  title: The forwarding delay of the service mesh is reduced by 5x
+weight: 1
+widget: slider
+---
+<div class="mt-3">
+  <a class="github-button" href="https://github.com/nlgwcy/hello-world" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star this on GitHub">Star</a>
+</div>
+<script async defer src="https://buttons.github.io/buttons.js"></script>

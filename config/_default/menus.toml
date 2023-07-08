@@ -20,32 +20,32 @@
 
 [[main]]
   name = "Downloads"
-  url = "https://github.com/kuasar-io/kuasar/releases"
+  url = "https://gitee.com/openeuler/Kmesh/releases"
   weight = 40
 
 # Right Menu
 [[main_right]]
   name = "<i class=\"fab fa-github-alt\" style=\"color: #333; font-size: 1rem; line-height: 1.25\"></i>"
   post = ""
-  url = "https://github.com/kuasar-io/kuasar"
+  url = "https://gitee.com/openeuler/Kmesh"
   weight = 10
 
 [[main_right]]
   name = "<i class=\"fab fa-twitter\" style=\"color: #55acee; font-size: 1rem; line-height: 1.25\"></i>"
   post = ""
-  url = "https://twitter.com/Kuasar_io"
+  url = "https://twitter.com/Kmesh_net"
   weight = 20
 
-[[main_right]]
-  name = "<i class=\"fab fa-slack\" style=\"color: #55acee; font-size: 1rem; line-height: 1.25\"></i>"
-  post = ""
-  url = "https://app.slack.com/client/T08PSQ7BQ/C052JRURD8V?selected_team_id=T08PSQ7BQ"
-  weight = 30
+#[[main_right]]
+#  name = "<i class=\"fab fa-slack\" style=\"color: #55acee; font-size: 1rem; line-height: 1.25\"></i>"
+#  post = ""
+#  url = "https://app.slack.com/client/T08PSQ7BQ/C052JRURD8V?selected_team_id=T08PSQ7BQ"
+#  weight = 30
 
 [[main_right]]
   name = "<i class=\"fab fa-weixin\" style=\"color: #55acee; font-size: 1rem; line-height: 1.25\"></i>"
   post = ""
-  url = "https://mp.weixin.qq.com/s/4L7f8pAlt9KCoyDhkW0mUQ"
+  url = "https://blog.51cto.com/u_15127420/4992806"
   weight = 40
 
 # Documentation
