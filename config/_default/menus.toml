@@ -20,14 +20,14 @@
 
 [[main]]
   name = "Downloads"
-  url = "https://gitee.com/openeuler/Kmesh/releases"
+  url = "https://github.com/kmesh-net/kmesh/releases"
   weight = 40
 
 # Right Menu
 [[main_right]]
   name = "<i class=\"fab fa-github-alt\" style=\"color: #333; font-size: 1rem; line-height: 1.25\"></i>"
   post = ""
-  url = "https://gitee.com/openeuler/Kmesh"
+  url = "https://github.com/kmesh-net/kmesh"
   weight = 10
 
 [[main_right]]
